@@ -1,0 +1,58 @@
+/*Estilos cotizador*/
+
+		header{
+			width:  100%;
+			height: 80px;
+			/*padding:  20px 0px 20px 0px;*/
+			background: #e4c048;
+			margin-bottom: 70px;
+
+		}
+
+		.lotes-ubicaciones{
+			text-align: center;
+			position: relative;
+		}
+
+		.lotes-ubicaciones h1{
+			color: #00cac5;
+    		font-weight: bold;
+    		font-size: 38px;
+    		padding: 0px 60px 0px 60px;
+		}
+
+		/*-----Modal-----*/
+		.modal-title{
+			color:  #598ecb;
+			font-weight: bold;
+		}
+
+		.localizacion{
+			width:  40px;
+			display: block;
+    		margin: auto;
+    		margin-bottom: 20px;
+		}
+		
+		.lote-medida{
+			width:  90%;
+			height: 70px;
+			background: #5fbfa1;
+			margin: auto;
+			margin-bottom: 20px;
+		}
+
+		.fa-angle-right{
+			color:  #e9cb68;	
+		}
+		
+		.desabilitaInput{
+			pointer-events: none;
+		}
+
+		.form-group input, .form-group select{
+			background: #73b9c6;
+    		border-radius: 20px;
+    		color: #fff;
+    		font-weight: 600;
+		}

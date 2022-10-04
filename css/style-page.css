@@ -1,0 +1,335 @@
+body{
+    font-family: 'Poppins', sans-serif!important;
+    color: black;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; outline: none;}
+
+.content-wrap{
+	
+}
+
+
+/*------- Cover area ---------------- */
+.banner-area{
+    background: url(../images/qualium-cover.png);
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    height: 120vh;
+}
+
+/*.banner-area:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0000009c;
+    opacity: .3;
+}*/
+
+.titulos-header{
+    padding-top: 150px;
+    position: relative;
+    text-align: left;
+}
+
+.titulos-header h1{
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 58px;
+    color: #fff;
+    line-height: 1.2em;
+}
+
+.titulos-header h2{
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.titulos-header h2 span{
+    color: #9bc516;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.titulos-header h3{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.titulos-header button{
+    background-color: #9bc516;
+    color:  #fff;
+    border:  none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+
+.titulos-header button:hover{
+    background-color: #92b522;
+    border:  none;
+}
+
+.titulos-header button:active{
+    border:  none;
+    box-shadow: none;
+}
+
+.titulos-header p{
+    font-size: 16px;
+    line-height: 1.6875rem;
+    font-weight: 500!important;
+    margin-top: 25px;
+}
+
+.img-bottom-header img{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*------- -------*/
+
+
+/*-------------Banner Slider----------*/
+.section-slider{
+    padding-top: 90px;
+    padding: 95px 0px 95px 0px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+
+.swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination-bullet{
+    width: 15px!important;
+    height: 15px!important;
+    background: #fff!important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color:  #9bc516!important;
+}
+
+/*----- ------*/
+
+/*-----Secion informacion residencial-----*/
+.section-informacion{   
+    padding-bottom: 70px;
+}
+
+.section-informacion h1{
+    color:  #9ac31c;
+    text-align: right;
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+.icon-residencia{
+    max-width: 80px;
+    transition: 0.5;
+}
+
+.icon-residencia:hover{
+    opacity: 0.9;
+}
+
+.section-informacion p span{
+    margin-left: 16px;
+}
+
+.pasos-residencial{
+    padding:  0px 94px 0px 40px;
+}
+/*----- ----*/
+
+/*--------Seccion ubicaciones--------------*/
+.section-ubicaciones{
+    background: #a9ce00;
+    text-align: center;
+    padding:  80px 0px 60px 0px;
+}
+
+.section-ubicaciones h1{
+    color:  #fff;
+}
+
+.section-ubicaciones h2{
+    color:  #fff;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.slider-ubicaciones{
+    width:  80%;
+    margin:  auto;
+}
+
+.images{
+    max-width: 100%;
+}
+
+.info-ubicacion{
+    background: #003334;
+    color:  #fff;
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+}
+
+.owl-item .item{
+    margin-right:  7px;
+
+}
+
+/*------    -----*/
+
+/*---------------Seccion mapa-------------*/
+
+.map-boleria{
+    width:  100%;
+    height: 500px;
+}
+
+/*----- -----*/
+
+
+
+/*Responsive web*/
+@media (max-width: 1024px) {
+    .titulos-header{
+        padding-top: 54px;
+    }
+    .titulos-header h1{
+        font-size:  60px;
+    }
+
+    .titulos-header h2{
+        font-size: 30px;
+    }
+
+    .titulos-header button{
+        font-size:  22px;
+
+    }
+
+    .icon-residencia{
+        max-width: 65px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .titulos-header{
+        padding-top: 90px;
+    }
+
+    .titulos-header h1{
+        font-size: 54px;
+    }
+
+    .section-informacion h1{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .icon-residencia{
+        max-width: 50px;
+    }
+    .titulos-header button{
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 500px) {
+   .titulos-header h1{
+    text-align: center;
+    font-size:  50px;
+   }
+
+   .titulos-header h2{
+    text-align: center;
+   }
+
+   .titulos-header button{
+    display: block;
+    margin:  auto;
+   }
+
+    .section-informacion h1{
+        margin-top: 50px;
+        font-size: 29px;
+        text-align: center
+    }
+    .pasos-residencial{
+        padding: 0px 20px 0px 20px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .titulos-header h1{
+        font-size: 35px    
+    }
+    .titulos-header{
+        padding-top: 50px;
+    }
+    
+
+}
+
+
+/*------ Footer ----------------*/
+.footer{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #2b632c;
+    font-size: 14px;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+
+.footer p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+ 
